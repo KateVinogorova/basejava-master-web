@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    color: #4d4d4d;
+}
+
+header, footer {
+    color: #2E6E9E;
+    font-size: 16px;
+    padding: 15px 10px;
+}
+
+table {
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+a {
+    color: #000;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+li {
+    list-style: none;
+}
+
+hr {
+    color: #afc4db;
+    background-color: #d3deeb;
+    height: 3px;
+    margin: 30px auto 10px auto;
+    border: none;
+}
+
+dd {
+    margin: 0 0 10px 0;
+}
+
+label {
+    display: block;
+    margin: 20px 10px 0 0;
+}
+
+input {
+    border: #ccc solid 2px;
+    padding: 5px 5px 5px 5px;
+    color: #4d4d4d;
+}
+
+textarea {
+    font-family: Arial;
+    color: #4d4d4d;;
+}
+
+.back_to_list {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    color: #ffffff;
+    text-decoration: none;
+    background: #5f76b8;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+
+.btn_cancel {
+    color: #ffffff;
+    text-decoration: none;
+    background: #eb5b5b;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+
+.section_header {
+    display: flex;
+    justify-content: space-between;
+    background: #d3deeb;
+    margin-top: 20px;
+    padding: 10px 20px 5px 20px;
+}
+
+.edit_section_header {
+    background: #d3deeb;
+    margin: 0;
+    padding: 10px 20px 5px 20px;
+}
+
+.section_header_name {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.section_container {
+    padding: 10px 50px;
+}
+
+.view_full_name {
+    font-size: 30px;
+}
+
+.view_edit {
+    color: #146ecc;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.view_edit:hover {
+    color: #b00c40;
+}
+
+.view_contact_item {
+    margin: 10px 0;
+}
+
+.listSection, .organizationSection {
+    padding-left: 0px;
+}
+
+.organizationSection:first-child {
+    margin-top: 20px;
+}
+
+.listSectionPoints {
+    list-style: circle;
+    padding: 3px 0;
+}
+
+.organizationName {
+    margin: 40px 0 20px 0;
+}
+
+.positionDates {
+    padding: 0;
+    margin-top: 0;
+    font-size: 16px;
+    color: #807e7e;
+}
+
+.positionTitle {
+    margin-bottom: 5px;
+}
+
+.edit_contacts_title {
+    margin-bottom: 5px;
+}
+
+.edit_contacts_input {
+    margin-bottom: 10px;
+}
+
+.edit_sections {
+    margin: 20px 0;
+}
+
+.label_inline {
+    display: inline-block;
+}
+
+.edit_org_pos_descript_container {
+    margin-top: 20px;
+}
